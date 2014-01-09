@@ -1,0 +1,10 @@
+body{padding:0 0 50px 0;margin:0;font:14px "Lucida Grande",Helvetica,Arial,sans-serif;background-image:url("../images/bk02.png")}
+a{color:#00b7ff}
+h1{font-size:11pt}
+div#main{padding:0;margin:0 50px}
+div#top{background-color:#fff;height:70px;}
+div#top p{background-color:#202020;display:block;padding:0;margin:0;height:43px;z-index:1;left:0;top:0;width:100%}
+div#top h1{top:-50px;position:relative;z-index:2;text-align:center;background-color:#bf1f1f;padding:55px 0 0 0;margin:0 0 0 20px;height:25px;width:80px;display:block;font-size:9pt;color:#fff}
+div#content{background:#fff;padding:10px 20px}
+div#bottom{background:#000;height:15px;padding:20px 5px 5px 0;font-size:8pt;color:#666;text-align:right;border-radius:0 0 5px 5px;}
+div#bottom p{padding:0;margin:0}
