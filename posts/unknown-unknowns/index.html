@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>모르는지도 모르는 - Highly Required</title>
+    
+    <meta name="description" content="Unknown-Unknowns 한 사람이 인지하는 자신의 지식은 쉽게 “아는 것”과 “모르는 것”으로 쪼개진다. 예를 들면, 1&#43;1 같은 간단한 식의 해는 대부분 “안다” 말하고, 복잡한 미분방정식의 해는 쉽게 모른다라고 말한다. 누군가 본인이 안다고 인지한다고 해서 실제 아는 것은 아니다. 시험을 보면 점수는 늘 생각보다 낮다. 개인의 지식을 다시 쪼개면 “정확히 아는 것”, “안다고 생각하고 있지만 모르는 것”, “모르는 것”으로 나눌 수 있다.
+어떠한 지식은 개인의 인지 밖, 인지의 지평선 넘어에 존재한다. 이러한 “모르는지도 모르는 것”과 단순히 모르는 것이 구분되는 점은 그러한 지식을 처음 접할때 개인은 내가 아는 지식인지 모르는 지식인지 쉽게 판단하지 못한 다는 점이다.">
+    <meta name="author" content="Jaepil Koh">
+    
+    <link href="http://sandbox.rockfor.win/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://sandbox.rockfor.win/style.css" rel="stylesheet">
+    <link href="http://sandbox.rockfor.win/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://sandbox.rockfor.win/apple-touch-icon.png">
+    <link rel="icon" href="http://sandbox.rockfor.win/favicon.ico">
+    <meta name="generator" content="Hugo 0.78.2" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="http://sandbox.rockfor.win/">Highly Required</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/about/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">모르는지도 모르는</h1>
+    <div class="post-meta">Jaepil Koh · June 3, 2020</div>
+  </header>
+  <div class="post-content"><h1 id="unknown-unknowns">Unknown-Unknowns</h1>
+<p>한 사람이 인지하는 자신의 지식은 쉽게 “아는 것”과 “모르는 것”으로 쪼개진다. 예를 들면, 1+1 같은 간단한 식의 해는 대부분 “안다” 말하고, 복잡한 미분방정식의 해는 쉽게 모른다라고 말한다. 누군가 본인이 안다고 인지한다고 해서 실제 아는 것은 아니다. 시험을 보면 점수는 늘 생각보다 낮다. 개인의 지식을 다시 쪼개면 “정확히 아는 것”, “안다고 생각하고 있지만 모르는 것”, “모르는 것”으로 나눌 수 있다.</p>
+<p>어떠한 지식은 개인의 인지 밖, 인지의 지평선 넘어에 존재한다. 이러한 “모르는지도 모르는 것”과 단순히 모르는 것이 구분되는 점은 그러한 지식을 처음 접할때 개인은 내가 아는 지식인지 모르는 지식인지 쉽게 판단하지 못한 다는 점이다. 누군가 에스와티니의 정부형태에 대한 질문에 누군가는 군주제라고 누구는 대통령제라 말할때(참고로 아니다.), 누군가는 이렇게 말한다. “거기가 어디야?” 고대인에게 세계일주라는 개념이 그랬고, Covid-19과 같은 팬더믹 상황이 또 그랬다. 예상조차 못했던 일들. 위의 나눈 개인의 지식 체계를 다시 확장하면, “정확히 아는 것”, “안다고 생각하고 있지만 모르는 것”, “모르는 것”, “모르는 지도 모르는 것”으로 나눌 수 있을 것이다. 이렇게 쪼개면 세상의 모든 지식을 개인의 입장에서 분할할 수 있다. 어떠한 지식도 저 중 하나에만 속하고, 모든 지식은 하나에는 속한다.(수학에서 말하는 집합의 분할이다.)</p>
+<p>이런 이야기를 하는 이유는 이걸 이용해서 여러 이야기를 할 수 있기 때문이다. 우선 할 이야기는 다음과 같다. - 문제를 해결하는 현명함은 지식의 양이 아닌 새로움에 대한 태도에서 나온다.</p>
+<p>문제가 주어졌을때 현명하지 않은 이들은 문제가 아닌 자신이 모른다고 판단하는 것에 대해서 더 집중한다. 모르는 부분이 없으면 문제를 해결할 수 있을 것이라고 생각하기 때문이다. 문제와 지식의 경계가 너무나도 뚜렸해던 초중고 시절에는 알맞는 해법이지만, 한계가 없는 현실의 문제에는 어울리지 않는 해법이다. 그러다 보니, 늘 무언가 비어있는(모르는 지도 모르는 것)이 있는 상태에서 문제를 바라본다. 운이 좋다면 문제를 해결하지만, 보통은 틀린 답을 내리거나 비효율적인 답을 낸다.</p>
+<p>이런이들의 패턴중 하나는 자신이 모르는 것을 말하며 자신의 겸손함을 드러내는 것이다. 그러나, 이미 자기가 모르는 범위까지 이미 자신이 결정했다는 점에서 이미 오만한 행동이다. 이런 이들에게 본인이 모른다고 주장하는 부분이 아닌, 인지하고 있지 않으나 필요한 부분을 말해주면 도움이 될 것 같지만, 관련없는 내용이라고 하거나, 이미 파악한 내용이라고 판단하며 흘려듣고 자신이 모르는 것이나 말해달라고 한다.</p>
+<p>다양한 방법과 계기로 인지의 지평선이 넓은 사람은 새로운 것을 덜 접하게 되고, 쉽게 자신의 인지 내에서 문제를 해결하고는 한다. 하지만 기술의 발달로 인해 현재 우리는 인류의 그 어느 세대보다도 많은 지식을 발견해 내고 있고, 이미 개인이 따라갈 수 있는 범위를 넘어선지 오래다. 이런 시대에 최근의 Covid-19처럼 지평선 밖의 지식들은 너무 쉽게 찾아온다. 특히 보편적인 지식이 아닌 전문분야에서는 조금만 앞으로 나서도 세상 모든 지식의 끝에 서게 되고, 그 누구도 만나보지 못한 문제들을 만나게 된다. 본인의 인지 밖의 지식의 존재를 무시하는 한, 해결되지 않는 문제는 계속 쌓여만 간다.</p>
+<p>문제를 풀고 싶으면 문제를 정의하고 문제에 집중하고 주변을 관찰해야 한다. 문제와 관련된 아는 것과 모르는 것을 정리하고, 아는 것을 이용해 모르는 것이 만들어 낼 수 있는 결과에 대해서 정리한다. 당장 모르는 것을 알아내는데 시간을 쓰는 것 보다, 가능한 시나리오인지, 외부의 영향은 없는지, 외부의 영향이 있다면 어떤 것들이 가능할지부터 상상해야 한다. 그런 재료들을 가지고 문제를 쪼개고 실험을 설계하고, 실험을 수행한다. 그리고 그렇게 모르는지도 모르던 것들을 하나씩 찾아가는 것이다. 지금까지 수많은 과학적 발견들이 발견된 것 처럼.</p>
+<p>그러니깐 도움이 필요하다면, 모르는걸 묻지말고 풀고 싶은 문제부터 말하라. 물론 풀고 싶은 문제가 무엇인지도 모르는 경우가 대부분이지만 말이다. 아, 젠장.</p>
+</div>
+  
+</article></main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="http://sandbox.rockfor.win/">Highly Required</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://sandbox.rockfor.win/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

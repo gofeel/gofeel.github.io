@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://highlyrequi.red/</loc>
+    <lastmod>2020-11-27T23:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/posts/</loc>
+    <lastmod>2020-11-27T23:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/posts/software/</loc>
+    <lastmod>2020-11-27T23:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/posts/unknown/</loc>
+    <lastmod>2020-11-27T20:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/posts/words/</loc>
+    <lastmod>2020-11-27T18:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/posts/preface/</loc>
+    <lastmod>2020-11-27T14:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/about/site/</loc>
+    <lastmod>2020-11-27T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/about/resume/</loc>
+    <lastmod>2020-11-27T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/about/</loc>
+    <lastmod>2020-11-27T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/series/</loc>
+  </url>
+  
+  <url>
+    <loc>http://highlyrequi.red/tags/</loc>
+  </url>
+  
+</urlset>

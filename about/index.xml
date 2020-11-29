@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Highly Required</title>
+    <link>http://highlyrequi.red/about/</link>
+    <description>Recent content in Abouts on Highly Required</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://highlyrequi.red/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About HighlyRequired</title>
+      <link>http://highlyrequi.red/about/site/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0900</pubDate>
+      
+      <guid>http://highlyrequi.red/about/site/</guid>
+      <description>&amp;ldquo;highlyrequired&amp;quot;는 기존에 가지고 있던 도메인을 왠 이스라엘 스타트업에 팔고는 어떤 도메인을 살까 하다가, gofeel을 적고 다시 髙必로 적어보고 그냥 대충의 뜻풀이를 한다음에 .red TLD가 있는 것을 확인한 뒤에 도메인을 구입했다. 한마디로 그냥 뻔한 농담 스타일, del.icio.us 같은 한번 흘러간 스타일이다. 이런 어설픈 농담이 좋다.
+Hugo로 운영된다.
+About Me</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://highlyrequi.red/about/resume/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0900</pubDate>
+      
+      <guid>http://highlyrequi.red/about/resume/</guid>
+      <description>고재필 / Jaepil Koh gofeel_AT_gmail.com / Linkedin / github
+Interests Coffee
+Skills  Web Frontend Programming(HTML, CSS, Bootstrap, Javascript/jQuery&amp;hellip;) Web Backend Programming + REST API Service Programming(PHP, Django, Flask, Node.js&amp;hellip;) Mobile Programming(iOS, Android) Embeded Programming (MBED, Gcc-arm-embedded) Supportive skills (or just for fun)(Perl, ML w/ Matlab/Octave/Spark, Git)  Selected Experience  Full-stack Engineer/Self-employed, Local Business. - 2016.08 - (Current) Director, Perples, Inc. - 2013.08 - 2016.08 Software Engineer, Enswers Inc - 2012.</description>
+    </item>
+    
+  </channel>
+</rss>
