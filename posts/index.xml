@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Highly Required</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 15 Jan 2021 09:00:00 +0900</lastBuildDate><atom:link href="https://highlyrequi.red/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://highlyrequi.red/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>버스와 사람</title>
+      <link>https://highlyrequi.red/posts/bus_factor/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://highlyrequi.red/posts/bus_factor/</guid>
+      <description>버스 팩터는 사람이 갑자기 자리에서 빠지는 경우 몇 명이 동시에 빠져야 인원의 부재가 팀에 문제가 되는가에 대한 지표이다. 보통의 1인 기업은 모든 면에서 버스 팩터가 1이고, 미국 대통령직은 승계 제도가 있으니 17 정도 될 것 같다. 이 단어의 어원1을 그리 좋아하지는 않지만, 그렇다고 복권 팩터2라고 적으면 왠지 느낌이 살지 않는다.
+버스 팩터가 크다는 것은 그만큼 팀이 유연하다는 것이다. 하지만 버스 팩터를 늘리는 데는 비용3이 들고, 보통은 원하는 버스 팩터가 크면 클수록 더 많이 들어간다.</description>
+    </item>
+    
     <item>
       <title>좋은 코드</title>
       <link>https://highlyrequi.red/posts/what_does_good_code_mean/</link>
