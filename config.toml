@@ -1,0 +1,41 @@
+baseURL = "https://highlyrequi.red/"
+languageCode = "ko-KR"
+title = "Highly Required"
+theme = "paper"
+
+DefaultContentLanguage = "ko"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+googleAnalytics = "UA-184192845-1"
+
+
+[Author]
+  name = "Jaepil Koh"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/site/"
+    weight = 10
+
+[params]
+  description = "어설픈 농담"
+  images = ["default.png"]
+  title = "Highly Required"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
