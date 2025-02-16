@@ -6,6 +6,7 @@ theme = "paper"
 DefaultContentLanguage = "ko"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
+enableRobotsTXT = true
 
 googleAnalytics = "G-8ZHP4ESCGS"
 
