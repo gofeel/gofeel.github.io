@@ -11,8 +11,6 @@ enableRobotsTXT = true
 googleAnalytics = "G-8ZHP4ESCGS"
 
 
-[Author]
-  name = "Jaepil Koh"
 
 
 [menu]
@@ -27,6 +25,9 @@ googleAnalytics = "G-8ZHP4ESCGS"
   description = "어설픈 농담"
   images = ["default.png"]
   title = "Highly Required"
+
+[params.Author]
+  name = "Jaepil Koh"
 
 [taxonomies]
   category = "categories"
