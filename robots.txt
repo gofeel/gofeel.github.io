@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+https://highlyrequi.red/sitemap-index.xml
